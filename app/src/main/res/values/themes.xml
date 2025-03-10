@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.Food" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Food.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_food</item>
+        <item name="postSplashScreenTheme">@style/Theme.Food</item>
+    </style>
 </resources>
